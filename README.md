@@ -64,9 +64,18 @@ The project demonstrates the **end-to-end process of deploying an ML model** int
 
 ---
 
+## 🎨 Web Interface  
+- Custom **HTML/CSS frontend** integrated with FastAPI.  
+- Submit text directly from the UI and get predictions in real-time.  
+
+![Demo Screenshot](Images/Screenshot%202025-09-04%20222950.png)
+
+
 ## 📜 Research Publication  
 
 I am also proud to share my research work:  
+
+This project is a practical deployment extension of my research on harmful speech detection, where I explored ensemble models. The deployed FastAPI app uses a Logistic Regression baseline, but the deployment pipeline is scalable for advanced models (e.g., ensembles).
 
 **Paper Title:** *Leveraging Ensemble Models for Multimodal Harmful Speech Detection on Social Media*  
 **Journal:** *Journal of Civil and Environmental Engineering*  
@@ -78,14 +87,10 @@ The research explores **ensemble learning approaches** for harmful speech detect
 ---
 
 ## 🔮 Future Enhancements  
-- Add **CI/CD pipeline** with GitHub Actions or AWS CodePipeline.  
-- Integrate with **AWS Lambda + API Gateway** for serverless deployment.  
-- Expand ML model deployment to support **batch inference + monitoring**.  
-- Extend harmful speech detection system into a **real-time moderation tool**.  
-
----
-
-## 🌟 Acknowledgments  
-This project reflects my **first step as a DevOps Engineer** 🚀 and builds upon my academic foundation in **Machine Learning research**.  
-
+- **CI/CD Integration:** Automate build & deploy with GitHub Actions → ECR → EC2.  
+- **Serverless Option:** Deploy with AWS Lambda + API Gateway for cost efficiency.  
+- **Monitoring & Logging:** Integrate with CloudWatch/Prometheus to track performance.  
+- **Advanced Models:** Extend to ensemble or transformer-based architectures.  
+- **Real-Time Moderation Tool:** Scale into a plug-in for social media platforms.  
+ 
 ---
