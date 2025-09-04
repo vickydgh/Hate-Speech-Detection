@@ -71,7 +71,6 @@ I am also proud to share my research work:
 **Paper Title:** *Leveraging Ensemble Models for Multimodal Harmful Speech Detection on Social Media*  
 **Journal:** *Journal of Civil and Environmental Engineering*  
 **Publication Year:** 2025  
-
 📄 [Read the Paper](https://ijcee.in/volume-12-issue-10-2024/)  
 
 The research explores **ensemble learning approaches** for harmful speech detection on social media by leveraging **multimodal features (text, metadata, and context)**, advancing the field of **AI for social good**.  

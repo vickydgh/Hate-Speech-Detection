@@ -1,6 +1,8 @@
-numpy
 fastapi
-mangum
-uvicorn
+uvicorn[standard]
 scikit-learn
+numpy
+scipy
+joblib
 nltk
+pydantic

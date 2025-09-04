@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hate Speech Detection</title>
+  <link rel="stylesheet" type="text/css" href="/static/style.css">
+</head>
+<body>
+  <h2>Hate Speech Detection</h2>
+  <form action="/predict_web" method="post">
+    <textarea name="text" rows="4" cols="50" placeholder="Enter your tweet here"></textarea><br>
+    <input type="submit" value="Predict">
+  </form>
+
+  {% if result %}
+    <h3>Prediction: {{ result.label }} ({{ result.probability | round(2) }})</h3>
+  {% endif %}
+</body>
+</html>
